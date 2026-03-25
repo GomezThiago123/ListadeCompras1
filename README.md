@@ -1,6 +1,6 @@
-# 🛒 Manual de Usuario – Lista de Compras
+# Manual de Usuario – Lista de Compras
 
-## ▶️ Cómo ejecutar la aplicación
+## Cómo ejecutar la aplicación
 
 1. Abrir la terminal en la carpeta del proyecto:
 
@@ -20,7 +20,7 @@
 
 ---
 
-## 📱 Cómo usar la aplicación
+## Cómo usar la App
 
 * Escribir un producto y presionar **Agregar** → se añade a la lista
 * Tocar un producto → se marca como completado
@@ -28,6 +28,6 @@
 
 ---
 
-## 📌 Nota
+## Nota
 
 * No se pueden agregar productos vacíos
