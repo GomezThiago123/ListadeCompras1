@@ -1,14 +1,24 @@
-import { View, ViewProps } from "react-native";
+import { View, ViewProps, StyleSheet } from "react-native";
 import { ReactNode } from "react";
 
 type Props = {
   children: ReactNode;
-} & ViewProps;
+};
 
-export default function Contenedor({ children, style, ...props }: Props) {
+export default function Contenedor({ children }: Props) {
   return (
-    <View {...props} style={style}>
+    <View style={styles.container}>
       {children}
     </View>
   );
 }
+
+/* ESTILOS */
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 16,
+    gap: 12,
+    backgroundColor: '#fff',
+  },
+});

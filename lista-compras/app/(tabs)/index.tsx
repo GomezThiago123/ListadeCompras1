@@ -17,7 +17,7 @@ export default function App() {
   } = usarItemsDeCompra();
 
   return (
-    <Contenedor style={styles.container}>
+    <Contenedor >
       <TituloDeLaPagina titulo="Lista de compras" />
 
       <FormularioParaItemNuevo onAgregar={agregarItem} />
@@ -31,12 +31,3 @@ export default function App() {
   );
 }
 
-/* ESTILOS */
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 16,
-    gap: 12,
-    backgroundColor: '#fff',
-  },
-});
