@@ -1,3 +1,4 @@
+import Contenedor from '@/components/contenedor/contenedor';
 import { useState } from 'react';
 import {
   View,
@@ -84,7 +85,7 @@ export default function App() {
   /*UI*/
 
   return (
-    <View style={styles.container}>
+    <Contenedor style={styles.container}>
       <Text style={styles.titulo}>Lista de Compras</Text>
 
       <View style={styles.filaInput}>
@@ -114,7 +115,7 @@ export default function App() {
           </Text>
         }
       />
-    </View>
+    </Contenedor>
   );
 }
 
